@@ -1,0 +1,108 @@
+import 'package:taskordersrate/features/order/model/order_model.dart';
+
+final List<OrderModel> dummyCompletedOrders = [
+  OrderModel(
+    id: "1025",
+    customerName: "Faisal Othman",
+    date: "June 26, 2025",
+    total: 43.48,
+    status: OrderStatus.complete,
+    items: [
+      OrderItemModel(name: "Burger Classic", quantity: 2, price: 15.99),
+      OrderItemModel(name: "French Fries", quantity: 1, price: 5.50),
+      OrderItemModel(name: "Cola Drink", quantity: 2, price: 3.00),
+    ],
+    rating: RatingSection(),
+  ),
+  OrderModel(
+    id: "1026",
+    customerName: "Noura Saleh",
+    date: "June 25, 2025",
+    total: 31.20,
+    status: OrderStatus.complete,
+    items: [
+      OrderItemModel(name: "Chicken Wrap", quantity: 1, price: 12.00),
+      OrderItemModel(name: "Curly Fries", quantity: 1, price: 6.00),
+      OrderItemModel(name: "Sprite", quantity: 1, price: 3.20),
+    ],
+    rating: RatingSection(),
+  ),
+  OrderModel(
+    id: "1027",
+    customerName: "Khaled Mansour",
+    date: "June 24, 2025",
+    total: 58.75,
+    status: OrderStatus.complete,
+    items: [
+      OrderItemModel(name: "Beef Pizza", quantity: 1, price: 24.50),
+      OrderItemModel(name: "Mozzarella Sticks", quantity: 2, price: 7.00),
+      OrderItemModel(name: "Lemonade", quantity: 2, price: 3.25),
+    ],
+    rating: RatingSection(),
+  ),
+  OrderModel(
+    id: "1028",
+    customerName: "Ahlam Jaber",
+    date: "June 23, 2025",
+    total: 26.90,
+    status: OrderStatus.complete,
+    items: [
+      OrderItemModel(name: "Falafel Sandwich", quantity: 2, price: 5.50),
+      OrderItemModel(name: "Hummus Plate", quantity: 1, price: 6.40),
+      OrderItemModel(name: "Mint Lemonade", quantity: 1, price: 4.00),
+    ],
+    rating: RatingSection(),
+  ),
+  OrderModel(
+    id: "1029",
+    customerName: "Sami Hariri",
+    date: "June 22, 2025",
+    total: 38.10,
+    status: OrderStatus.complete,
+    items: [
+      OrderItemModel(name: "Zinger Burger", quantity: 1, price: 18.00),
+      OrderItemModel(name: "Onion Rings", quantity: 1, price: 6.50),
+      OrderItemModel(name: "Pepsi", quantity: 2, price: 3.80),
+    ],
+    rating: RatingSection(),
+  ),
+  OrderModel(
+    id: "1030",
+    customerName: "Lina Fares",
+    date: "June 21, 2025",
+    total: 45.60,
+    status: OrderStatus.complete,
+    items: [
+      OrderItemModel(name: "Grilled Chicken", quantity: 1, price: 20.00),
+      OrderItemModel(name: "Mashed Potatoes", quantity: 1, price: 10.00),
+      OrderItemModel(name: "Fresh Juice", quantity: 2, price: 7.80),
+    ],
+    rating: RatingSection(),
+  ),
+  OrderModel(
+    id: "1031",
+    customerName: "Ahmed Baz",
+    date: "June 20, 2025",
+    total: 27.30,
+    status: OrderStatus.complete,
+    items: [
+      OrderItemModel(name: "Shawarma Plate", quantity: 1, price: 15.00),
+      OrderItemModel(name: "French Fries", quantity: 1, price: 5.50),
+      OrderItemModel(name: "Water", quantity: 1, price: 1.80),
+    ],
+    rating: RatingSection(),
+  ),
+  OrderModel(
+    id: "1032",
+    customerName: "Dina Al-Harbi",
+    date: "June 19, 2025",
+    total: 33.70,
+    status: OrderStatus.complete,
+    items: [
+      OrderItemModel(name: "Margherita Pizza", quantity: 1, price: 22.00),
+      OrderItemModel(name: "Caesar Salad", quantity: 1, price: 8.50),
+      OrderItemModel(name: "Iced Tea", quantity: 1, price: 3.20),
+    ],
+    rating: RatingSection(),
+  ),
+];
